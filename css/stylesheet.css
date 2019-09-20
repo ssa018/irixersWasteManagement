@@ -1,0 +1,24 @@
+.scroll-top {
+    position: fixed;
+    display: block;
+    bottom: 2.5625rem;
+    right: 1.5625rem;
+    z-index: 999;
+    background: #fff;
+    height: 2rem;
+    width: 2rem;
+    line-height: 2.25rem;
+    text-align: center;
+    font-size: .875rem;
+    border-radius: 100%;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 1);
+    transition: .5s all ease;
+    -webkit-transform: translateY(4.25rem);
+    transform: translateY(4.25rem);
+    color: #788487;
+}
+
+.scroll-top.scroll-top-visible {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
