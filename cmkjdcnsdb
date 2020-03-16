@@ -1,0 +1,277 @@
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530   1) <!DOCTYPE html>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530   2) <html>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530   3) 
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530   4) <head>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530   5)     <meta charset="utf-8" />
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530   6)     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530   7)     <title>Waste Management</title>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530   8)     <meta name="viewport" content="width=device-width, initial-scale=1">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530   9)     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  10)     <link rel="stylesheet" href="css/animate.css">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  11)     <link rel="stylesheet" href="css/stylesheet.css">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  12)     <link rel="stylesheet" href="css/pageloader.css">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  13)     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  14)         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  15)     <link href="https://fonts.googleapis.com/css?family=Mukta+Malar:500" rel="stylesheet">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  16)     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  17)     <style>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  18)         .card {
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  19)             border-radius: .5rem !important;
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  20)             background-color: #007bff;
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  21)             box-shadow: 10px 10px 5px #888888;
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  22)         }
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  23) 
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  24)         .card_img {
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  25)             border-radius: 50% !important;
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  26)             width: 50px;
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  27)             height: 50px;
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  28)             background-color: #fff;
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  29)         }
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  30)         li{
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  31)             list-style: none;
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  32)             text-align: left;
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  33)         }
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  34)         h5.img-fluid {
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  35)             border-radius: 50% !important;
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  36)         }
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  37)     </style>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  38) </head>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  39) 
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  40) <body>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  41)     <div id="page" class="page-loader">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  42)         <div class="page-loader-inner">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  43)             <div class="spinner">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  44)                 <div class="double-bounce1"></div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  45)                 <div class="double-bounce2"></div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  46)             </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  47)         </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  48)     </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  49) 
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  50)     <!--navbar-->
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  51)     <div class="animated fadeInDown">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  52)         <div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  53)             <nav class="navsize navbar navbar-expand-lg navbar-light bg-light">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  54)                 <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="64px" alt="WM"></a>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  55)                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  56)                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  57)                     <span class="navbar-toggler-icon"></span>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  58)                 </button>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  59)                 <div class="collapse navbar-collapse" id="navbarNav">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  60)                     <ul class="navbar-nav">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  61)                         <li class="nav-item active">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  62)                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  63)                         </li>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  64)                         <li class="nav-item">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  65)                             <a class="nav-link" href="about.html">About</a>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  66)                         </li>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  67)                         <li class="nav-item">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  68)                             <a class="nav-link" href="contact.html">Contact</a>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  69)                         </li>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  70)                         <li class="nav-item">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  71)                             <a class="nav-link" href="tie_ups.html">Tie-Ups</a>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  72)                         </li>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  73)                         <li class="nav-item">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  74)                             <a class="nav-link" href="form_loginSC.html">Sub Centre</a>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  75)                         </li>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  76)                     </ul>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  77)                 </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  78)                 <div class="float-right">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  79)                     <button type="submit" class="btn btn-primary">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  80)                         <a class=" text-white" href="form_loginppl.html">Log In</a>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  81)                     </button>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  82)                 </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  83)             </nav>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  84)         </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  85)     </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  86) 
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  87)     <!--test contant-->
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  88)     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  89)         <ol class="carousel-indicators">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  90)             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  91)             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  92)             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  93)             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  94)             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  95)         </ol>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  96)         <div class="carousel-inner">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  97)             <div class="carousel-item active">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  98)                 <img src="img/img1.jpg" class="d-block w-100" alt="...">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530  99)             </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 100)             <div class="carousel-item">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 101)                 <img src="img/img2.jpg" class="d-block w-100" alt="...">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 102)             </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 103)             <div class="carousel-item">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 104)                 <img src="img/img3.jpg" class="d-block w-100" alt="...">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 105)             </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 106)             <div class="carousel-item">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 107)                 <img src="img/img4.png" class="d-block w-100" alt="...">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 108)             </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 109)             <div class="carousel-item">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 110)                 <img src="img/img5.jpg" class="d-block w-100" alt="...">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 111)             </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 112)         </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 113)         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 114)             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 115)             <span class="sr-only">Previous</span>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 116)         </a>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 117)         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 118)             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 119)             <span class="sr-only">Next</span>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 120)         </a>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 121)     </div><br>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 122) 
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 123)     <div class=" animated fadeInUpBig">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 124)         <!-- Jumbotron -->
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 125)         <div class="jumbotron">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 126)             <div class="container">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 127)                 <h1>Welcome to Waste Management</h1>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 128)                 <p>We provide waste management services including collection, transfer, recycling, resource recovery and
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 129)                     disposal services, and operates waste-to-energy facilities. We will serve industrial, residential
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 130)                     customers throughtout the country</p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 131)                 <p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 132)                     <a class="btn btn-primary btn-lg" href="about.html">Learn more about us</a>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 133)                 </p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 134)             </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 135)         </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 136) 
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 137)         <!-- Cards -->
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 138)         <div class="text-center">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 139)             <h3>Our Vision</h3>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 140)             <div class="align-top card d-inline-block text-white mr-lg-3 mr-md-3 mr-sm-3 mr-xl-3 mt-3" style="width: 18rem;">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 141)                 <div class="card-body">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 142)                     <div class="card-title text-primary">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 143)                         <div class="fas fa-trophy card_img pt-3"></div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 144)                     </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 145)                     <h5 class="card-title">Challenge</h5>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 146)                     <p class="card-text">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 147)                         Waste pickup and disposal, recycling programs needs to be done with very little integration between units.
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 148)                     </p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 149)                 </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 150)             </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 151)             <div class="align-top card d-inline-block text-white mr-lg-3 mr-md-3 mr-sm-3 mr-xl-3 mt-3" style="width: 18rem;">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 152)                 <div class="card-body">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 153)                     <div class="card-title text-primary">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 154)                         <div class="fas fa-award card_img pt-3"></div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 155)                     </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 156)                     <h5 class="card-title">Benefits</h5>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 157)                     <p class="card-text">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 158)                         <li>Absolute clearing of waste.</li>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 159)                         <li>Contribution to Agro based industries.</li>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 160)                         <li>Reduces environment pollution.</li>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 161)                         <li>Creates employment.</li>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 162)                     </p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 163)                 </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 164)             </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 165)             <div class="align-top card d-inline-block text-white mt-3" style="width: 18rem;">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 166)                 <div class="card-body">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 167)                     <div class="card-title text-primary">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 168)                         <div class="fas fa-bullseye card_img pt-3"></div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 169)                     </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 170)                     <h5 class="card-title">Objectives</h5>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 171)                     <p class="card-text">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 172)                         <li>Protect Environment</li>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 173)                         <li>Clean Environment</li>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 174)                         <li>Reducing waste by implementing this plan.</li>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 175)                     </p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 176)                 </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 177)             </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 178)         </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 179)         <br><br>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 180)     </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 181)     <div class=" animated fadeInUpBig">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 182)         <div class="container-fluid bg-light">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 183)             <div class="text-center">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 184)                 <div><br>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 185)                         <h2><u>Why Choose Us</u></h2>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 186)                 </div><br>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 187)                 <div class="row">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 188)                     <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 189)                         <h3>Protection of Environment</h3>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 190)                         <p>We care for you and the environment</p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 191)                     </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 192)                     <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 193)                         <h3>Quality of Service</h3>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 194)                         <p>We provide best quality of services by providing better transport system.</p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 195)                     </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 196)                     <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 197)                         <h3>Create Employment</h3>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 198)                         <p>We provides employment to the people even to those who are not so well educted.</p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 199)                     </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 200)                 </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 201)             </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 202)             <br>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 203)         </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 204) 
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 205)         <!--footer-->
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 206)         <div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 207)             <footer class="page-footers small unique-color-dark">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 208)                 <div style="background-color: #343a40;">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 209)                     <div class="container">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 210)                         <div class="row py-3 d-flex align-items-center">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 211)                             <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 212)                                 <h6 class="mb-0 text-white">Get connected with us on social networks!</h6>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 213)                             </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 214)                             <div class="col-md-6 col-lg-7 text-center text-md-right">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 215)                                 <a href="#"><i class="fab fa-facebook-f text-white mr-4"> </i></a>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 216)                                 <a href="#"><i class="fab fa-twitter text-white mr-4"> </i></a>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 217)                                 <a href="#"><i class="fab fa-google-plus-g text-white mr-4"> </i></a>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 218)                                 <a href="#"><i class="fab fa-linkedin-in text-white mr-4"> </i></a>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 219)                                 <a href="#"><i class="fab fa-instagram text-white"> </i></a>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 220)                             </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 221)                         </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 222)                     </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 223)                 </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 224)                 <!-- Footer Links -->
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 225)                 <div class="container text-center text-md-left mt-5">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 226)                     <div class="row mt-3">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 227)                         <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 228)                             <h6 class="text-uppercase font-weight-bold">Waste Managements</h6>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 229)                             <hr class="bg-dark accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 230)                             <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 231)                                 dolor
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 232)                                 sit amet, consectetur adipisicing elit.</p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 233)                         </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 234)                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto pl-4 mb-4">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 235)                             <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 236)                             <hr class="bg-dark accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 237)                             <p><a style="color:#000;" href="#!">Home</a></p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 238)                             <p><a style="color:#000;" href="#!">About</a></p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 239)                             <p><a style="color:#000;" href="#!">Contact</a></p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 240)                         </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 241)                         <div class="col-md-2 col text-white-lg-2 col-xl-2 mx-auto pl-xl-4 mb-md-0 mb-4">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 242)                             <h6 class="text-uppercase font-weight-bold">Contact</h6>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 243)                             <hr class="bg-dark text-centerple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 244)                                 style="width: 60px;">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 245)                             <p><i class="fas fa-home mr-2"></i>Gogol, Margao,South - Goa. 403 601</p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 246)                             <p><i class="fas fa-envelope mr-2"></i>abcd@example.com</p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 247)                             <p><i class="fas fa-phone mr-2"></i>+ 91 1234 567 890</p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 248)                             <p><i class="fas fa-print mr-2"></i> 0832 2758901</p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 249)                         </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 250)                         <div class="col-md-4 col-lg-4 col-xl-4 mx-auto pl-5 mb-4">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 251)                             <h6 class="text-uppercase font-weight-bold">Message from the Head</h6>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 252)                             <hr class="bg-dark accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 253)                             <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 254)                                 dolor
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 255)                                 sit amet, consectetur adipisicing elit.</p>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 256)                         </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 257)                     </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 258)                 </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 259)                 <div class="footer-copyright text-center bg-dark text-white p-2">
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 260)                     © 2019 Copyright: Waste Management
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 261)                 </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 262)             </footer>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 263)         </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 264)     </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 265) 
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 266)     </div>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 267) 
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 268)     <!--bootstrap&jquery-->
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 269)     <script src="js/jquery.js"></script>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 270)     <script src="js/bootstrap.js"></script>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 271)     <script src="js/myscript.js"></script>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 272)     <script src="js/jquery.easing.min.js"></script>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 273)     <script src="js/scrolling-nav.js"></script>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 274) 
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 275) </body>
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 276) 
+27d5b844 (Ahmad Shah 2019-09-20 08:39:08 +0530 277) </html>
